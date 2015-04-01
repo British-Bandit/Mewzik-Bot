@@ -1,1 +1,1 @@
-# Mewzik-Bot
+# Mewziko (The Mewzik Bot)
