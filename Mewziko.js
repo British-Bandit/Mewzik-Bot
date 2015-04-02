@@ -15,5 +15,6 @@ var Mewziko = {
     SkipRequestLimit: 8,
     ReplayTimer: 30
   }
-  
 }
+
+return API.sendChat("Test")
