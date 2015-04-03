@@ -4,7 +4,7 @@
  *This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
  */
 
-(var BotCreator = "British Bandit"
+(var BotCreator = "British Bandit";
 
 var Mewziko = {
   Name: "Mewziko",
@@ -14,7 +14,7 @@ var Mewziko = {
     MaxSongLength: 8,
     SkipRequestLimit: 8,
     ReplayTimer: 30
-  }
-}
+  };
+};
 
-return API.sendChat("Test"))
+return API.sendChat("Test");).call(this);
