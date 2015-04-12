@@ -19,9 +19,9 @@ var Mewziko = {
   }
 }
 
-{
+SkipSong = function () {
   if (API.getMedia().duration >= Mewziko.Settings.MaxSongLength){
-    API.moderateForceSkip(API.getDJ());
+    API.moderateForceSkip();
     return -1;
   }
   else return 1;
